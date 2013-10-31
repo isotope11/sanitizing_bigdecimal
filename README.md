@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ```ruby
 user_input = "$3,000.23"
-SanitizingBigDecimal.new(user_input)
+SanitizingBigDecimal(user_input)
 #=> #<BigDecimal:bd78f60,'0.300023E4',9(18)>
 ```
 
