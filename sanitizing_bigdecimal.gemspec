@@ -6,8 +6,8 @@ require 'sanitizing_bigdecimal'
 Gem::Specification.new do |spec|
   spec.name          = "sanitizing_bigdecimal"
   spec.version       = SanitizingBigDecimal::VERSION
-  spec.authors       = ["Josh Adams"]
-  spec.email         = ["josh@isotope11.com"]
+  spec.authors       = ["Josh Adams", "Adam Gamble"]
+  spec.email         = ["josh@isotope11.com", "adamgamble@gmail.com"]
   spec.description   = %q{Provides a nice way to get BigDecimals from user input without bugs.}
   spec.summary       = %q{This gem aims to solve various common problems around converting user input into BigDecimal.}
   spec.homepage      = "http://github.com/isotope11/sanitizing_bigdecimal"
