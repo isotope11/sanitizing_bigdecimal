@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'sanitizing_bigdecimal/version'
+require 'sanitizing_bigdecimal'
 
 Gem::Specification.new do |spec|
   spec.name          = "sanitizing_bigdecimal"
-  spec.version       = SanitizingBigdecimal::VERSION
+  spec.version       = SanitizingBigDecimal::VERSION
   spec.authors       = ["Josh Adams"]
   spec.email         = ["josh@isotope11.com"]
   spec.description   = %q{Provides a nice way to get BigDecimals from user input without bugs.}
