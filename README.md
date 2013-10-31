@@ -1,4 +1,4 @@
-# SanitizingBigdecimal
+# SanitizingBigDecimal
 
 Take user interface into BigDecimal without bugs
 
