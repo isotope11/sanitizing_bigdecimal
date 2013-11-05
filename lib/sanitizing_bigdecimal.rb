@@ -1,9 +1,10 @@
 require 'bigdecimal'
 
 class SanitizingBigDecimal
-  VERSION = "0.0.1"
+  VERSION = "0.0.2"
 
   def self.get_bigdecimal(input)
+    return input if input.is_a?(BigDecimal)
     BigDecimal(sanitize(input))
   end
 
