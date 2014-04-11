@@ -9,7 +9,7 @@ class SanitizingBigDecimal
   end
 
   def self.sanitize(input)
-    return nil if input.nil?
+    return nil.to_s if input.nil?
     input.gsub(/[^.0-9]/, '')
   end
 end
